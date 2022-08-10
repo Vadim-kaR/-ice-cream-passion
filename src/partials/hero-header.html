@@ -1,0 +1,86 @@
+<section class="hero">
+  <!--! Header -->
+
+  <header class="header">
+    <!-- <img class="logo__img" src="images/logo.png" alt="logo" /> -->
+    <div class="logo">
+      <svg class="logo__icon" width="40" height="40">
+        <use href="images/symbol-defs.svg#icecream"></use>
+      </svg>
+      <p class="logo__text">icecream</p>
+    </div>
+    <nav class="header__nav">
+      <ul class="menu">
+        <li class="menu__item">
+          <a href="/index.html" class="menu__link">Home</a>
+        </li>
+        <li class="menu__item"><a href="#aboutus" class="menu__link">About us</a></li>
+        <li class="menu__item"><a href="#howitmades" class="menu__link">How it's made?</a></li>
+        <li class="menu__item"><a href="#products" class="menu__link">Our products</a></li>
+        <li class="menu__item"><a href="#contacts" class="menu__link">Contact</a></li>
+      </ul>
+    </nav>
+    <!--! Mobile Menu Button -->
+    <button
+      class="mob-menu js-open-menu"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="mob-menu__icon" width="25" height="25">
+        <use href="images/symbol-defs.svg#mob-menu"></use>
+      </svg>
+    </button>
+    <button class="button button--2 button--header modal-bynow-open" type="button">
+      <div class="button__wrapper">
+        <p class="button__text">Buy now</p>
+        <svg class="button__icon" width="10" height="10">
+          <use href="images/symbol-defs.svg#icon-Vector"></use>
+        </svg>
+      </div>
+    </button>
+  </header>
+  <!-- <div class="hero__push"></div> -->
+  <div class="container hero__wrapper">
+    <!-- <span class="hero__white">ice cream made with</span>  -->
+    <h1 class="hero__title">ice cream made with <span>passion</span></h1>
+    <a class="button button--1 hero--button" href="#products">Products</a>
+    <a class="button button--2 hero--button" href="#howitmades">How it’s made?</a>
+    <div class="hero-slider">
+      <img
+        class="hero-slider__img"
+        srcset="images/milk-desk-x1.png 1x, images/milk-desk-x2.png 2x"
+        alt="milk"
+      />
+      <div class="hero-slider__wrapper">
+        <p class="hero-slider__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et
+        </p>
+        <a class="button button--2 circle" href="#howitmades">
+          <svg class="hero-slider--button__icon" width="8" height="8">
+            <use href="images/symbol-defs.svg#arrow"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- Achivki-->
+    <ul class="achivements">
+      <li class="achivements__item">
+        <div class="achivements__ball"></div>
+        <p class="achivements__num">16</p>
+        <p class="achivements__text">cafes</p>
+      </li>
+      <li class="achivements__item">
+        <p class="achivements__num">23</p>
+        <div class="achivements__ball"></div>
+        <p class="achivements__text">food trucks</p>
+      </li>
+    </ul>
+    <img
+      class="hero__img"
+      srcset="images/tasty-desk-x1.png 1x, images/tasty-desk-x2.png 2x"
+      alt="girl with icecream"
+    />
+  </div>
+</section>
